@@ -1,0 +1,191 @@
+#main {
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+	background-color: rgba(200, 200, 200, 0.2);
+	margin: auto;
+	
+}
+
+.youtubelogo {
+	display: none;
+}
+ 
+h1 {
+	font-size: 300%;
+	font-weight: 600;
+}
+
+#description {
+	font-size: 120%;
+	margin: 5%;
+
+}
+
+#survey-form {
+	background-color: rgb(255, 255, 255);
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px rgba(10, 10, 10, 0.2);
+}
+
+.form-group {
+	margin: 10% 5%;
+	text-align: left;
+	font-size: 115%;
+
+}
+
+#name-label {
+	margin-top: 200px;
+}
+
+#name, #email, #number {
+	width: 95%;
+	height: 30px;
+	padding: 1px 5px;
+	border-radius: 5px;
+	border: 2px solid blue;
+	font-size: 100%;
+}
+
+#dropdown {
+	width: 99%;
+	height: 32px;
+	padding: 1px 5px;
+	border-radius: 5px;
+	border: 2px solid blue;
+	font-size: 100%;
+}
+
+#suggestions {
+	width: 95%;
+	height: 100px;
+	padding: 1px 5px;
+	border-radius: 5px;
+	border: 2px solid blue;
+	resize: vertical;
+	font-size: 120%;
+}
+
+#submit {
+	width: 99%;
+	height: 30px;
+	padding: 1px 5px;
+	border-radius: 5px;
+	border: 2px solid rgba(255, 0, 0, 0.8);
+	background-color: rgba(255, 0, 0, 0.8);
+	font-size: 100%;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+
+@media (min-width: 500px) {
+.youtubelogo {
+	display: none;
+}
+
+
+
+#submit {
+	width: 97%;
+	height: 30px;
+	padding: 1px 5px;
+	border-radius: 5px;
+	border: 2px solid rgba(255, 0, 0, 0.8);
+	background-color: rgba(255, 0, 0, 0.8);
+	font-size: 100%;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+#dropdown {
+	width: 97%;
+	height: 36px;
+	padding: 1px 5px;
+	border-radius: 5px;
+	border: 2px solid blue;
+	font-size: 100%;
+}
+
+.form-group {
+	margin: 5% 10%;
+	text-align: left;
+	font-size: 115%;
+
+}
+
+p {
+	margin-bottom: 1%;
+}
+
+}
+
+@media only screen and (min-width: 800px) {
+.youtubelogo {
+	display: inline-block;
+	position: relative;
+	top: 20px;
+}
+
+h1 {
+	font-size: 300%;
+	font-weight: 600;
+	margin: 2% auto;
+}
+
+
+#description {
+	font-size: 120%;
+	margin: 2% auto;
+
+}
+
+#survey-form {
+	background-color: rgb(255, 255, 255);
+	border-radius: 10px;
+	width: 700px;
+	margin: auto;
+}
+
+#name, #email, #number {
+	width: 95%;
+	height: 30px;
+	padding: 1px 5px;
+	border-radius: 5px;
+	border: 2px solid blue;
+	font-size: 100%;
+}
+
+#dropdown {
+	width: 97.5%;
+	height: 35px;
+	padding: 1px 5px;
+	border-radius: 5px;
+	border: 2px solid blue;
+	font-size: 100%;
+}
+
+#suggestions {
+	width: 95%;
+	height: 100px;
+	padding: 1px 5px;
+	border-radius: 5px;
+	border: 2px solid blue;
+	resize: vertical;
+	font-size: 120%;
+}
+
+#submit {
+	width: 97.5%;
+	height: 35px;
+	padding: 1px 5px;
+	border-radius: 5px;
+	border: 2px solid rgba(255, 0, 0, 0.8);
+	background-color: rgba(255, 0, 0, 0.8);
+	font-size: 100%;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+}
+
